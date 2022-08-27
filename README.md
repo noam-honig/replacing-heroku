@@ -1,6 +1,9 @@
 # replacing-heroku
 A list of Heroku replacements, now that Heroku announced that they no longer provide a free tier
 
+# Node & Postgres
+1. fly.io
+
 # node js:
 1. https://railway.app/ - explore
 2. Vercel.
