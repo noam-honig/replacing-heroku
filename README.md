@@ -10,7 +10,7 @@ A list of Heroku replacements, now that Heroku announced that they no longer pro
 3. https://www.honeybadger.io/blog/node-elastic-beanstalk/?fbclid=IwAR2xibyOEO_AtqdG482kE0B2h09eXJNRpsEV2xYM8wr6lCePJtixqrEZqUk
 
 # Fullstack
-1. https://render.com/render-vs-heroku-comparison
+1. https://render.com/render-vs-heroku-comparison (database are deleted after 90 days of inactivity?)
 1. https://www.deta.sh/
 2. https://railway.app/
 2. fly.io
@@ -18,6 +18,7 @@ A list of Heroku replacements, now that Heroku announced that they no longer pro
 2. https://adaptable.io/pricing
 2. https://www.koyeb.com/pricing
 2. https://qoddi.com/postgresql/
+3. DigitalOcean App Platform
 
 
 # Server less
