@@ -22,7 +22,6 @@ A list of Heroku replacements, now that Heroku announced that they no longer pro
 
 # Fullstack
 1. https://www.deta.sh/
-2. fly.io
 2. https://domcloud.co/docs/deploying/node
 2. https://adaptable.io/pricing
 2. https://www.koyeb.com/pricing
