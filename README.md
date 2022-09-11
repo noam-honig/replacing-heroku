@@ -17,7 +17,8 @@ A list of Heroku replacements, now that Heroku announced that they no longer pro
 
 # node js:
 2. Vercel.
-3. https://www.honeybadger.io/blog/node-elastic-beanstalk/?fbclid=IwAR2xibyOEO_AtqdG482kE0B2h09eXJNRpsEV2xYM8wr6lCePJtixqrEZqUk
+3. netlify
+4. https://www.honeybadger.io/blog/node-elastic-beanstalk/?fbclid=IwAR2xibyOEO_AtqdG482kE0B2h09eXJNRpsEV2xYM8wr6lCePJtixqrEZqUk
 
 # Fullstack
 1. https://www.deta.sh/
