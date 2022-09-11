@@ -12,7 +12,6 @@ A list of Heroku replacements, now that Heroku announced that they no longer pro
 # Fullstack
 1. https://render.com/render-vs-heroku-comparison (database are deleted after 90 days of inactivity?)
 1. https://www.deta.sh/
-2. https://railway.app/
 2. fly.io
 2. https://domcloud.co/docs/deploying/node
 2. https://adaptable.io/pricing
