@@ -15,12 +15,10 @@ A list of Heroku replacements, now that Heroku announced that they no longer pro
 1. fly.io
 
 # node js:
-1. https://railway.app/ - explore
 2. Vercel.
 3. https://www.honeybadger.io/blog/node-elastic-beanstalk/?fbclid=IwAR2xibyOEO_AtqdG482kE0B2h09eXJNRpsEV2xYM8wr6lCePJtixqrEZqUk
 
 # Fullstack
-1. https://render.com/render-vs-heroku-comparison (database are deleted after 90 days of inactivity?)
 1. https://www.deta.sh/
 2. fly.io
 2. https://domcloud.co/docs/deploying/node
