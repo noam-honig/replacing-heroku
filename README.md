@@ -3,6 +3,10 @@ A list of Heroku replacements, now that Heroku announced that they no longer pro
 
 ## My take on things
 1. render - [Only one free db and will be deleted after 90 days](https://render.com/docs/free#free-postgresql-databases)
+   0. https://www.freecodecamp.org/news/how-to-deploy-nodejs-application-with-render/
+   1. have project on github
+   2. create project type "Web Service" and connect to github
+   3. create new postgres database (as opposed to heroku - the database is separate from the website)
 
 
 # Node & Postgres
