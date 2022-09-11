@@ -1,13 +1,14 @@
 # replacing-heroku
 A list of Heroku replacements, now that Heroku announced that they no longer provide a free tier
 
-## My take on things
-1. railway.app - easiest to install, great dev experience - only hosted on westcoast so slow to Israel :(
+# Node server + Postgres Database
+1. railway.app 👍 - easiest to install, great dev experience - only hosted on westcoast so slow to Israel (200ms latency) :(
 2. render - [Only one free db and will be deleted after 90 days](https://render.com/docs/free#free-postgresql-databases)
    1. https://www.freecodecamp.org/news/how-to-deploy-nodejs-application-with-render/
    2. have project on github
    3. create project type "Web Service" and connect to github
    4. create new postgres database (as opposed to heroku - the database is separate from the website)
+   5. currently failed to deploy - doesn't show why :( 😒
 
 
 # Node & Postgres
