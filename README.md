@@ -5,6 +5,7 @@ A list of Heroku replacements, now that Heroku announced that they no longer pro
 1. railway.app 👍 - easiest to install, great dev experience - only hosted on westcoast so slow to Israel (200ms latency) :(
 2. fly.io 👍 - installs via cli, docs is pretty technical and scary - but it works - followed this article:
    * https://fly.io/docs/languages-and-frameworks/node/
+   * 120ms latency
 3. render - [Only one free db and will be deleted after 90 days](https://render.com/docs/free#free-postgresql-databases)
    1. https://www.freecodecamp.org/news/how-to-deploy-nodejs-application-with-render/
    2. have project on github
