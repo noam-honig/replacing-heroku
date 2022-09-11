@@ -1,6 +1,10 @@
 # replacing-heroku
 A list of Heroku replacements, now that Heroku announced that they no longer provide a free tier
 
+## My take on things
+1. render - [Only one free db and will be deleted after 90 days](https://render.com/docs/free#free-postgresql-databases)
+
+
 # Node & Postgres
 1. fly.io
 
