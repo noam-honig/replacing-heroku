@@ -13,8 +13,6 @@ A list of Heroku replacements, now that Heroku announced that they no longer pro
    5. currently failed to deploy - doesn't show why :( 😒
 
 
-# Node & Postgres
-1. fly.io
 
 # node js:
 2. Vercel.
