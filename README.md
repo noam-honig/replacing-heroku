@@ -16,9 +16,9 @@ A list of Heroku replacements, now that Heroku announced that they no longer pro
 
 
 # node js:
-2. Vercel.
-3. netlify
-4. https://www.honeybadger.io/blog/node-elastic-beanstalk/?fbclid=IwAR2xibyOEO_AtqdG482kE0B2h09eXJNRpsEV2xYM8wr6lCePJtixqrEZqUk
+1. Google cloud run 
+
+
 
 # Fullstack
 1. https://www.deta.sh/
@@ -29,11 +29,14 @@ A list of Heroku replacements, now that Heroku announced that they no longer pro
 3. DigitalOcean App Platform
 
 
+
 # Server less
+2. Vercel.
 1. https://www.cyclic.sh/ -⭐ - has good free tier - supports dynamo db - looks nice
 2. Netlify, very short serverless functions
 3. Cloudflare - seems partial support for serverless functions
 4. Firebase - https://towardsdev.com/host-a-nodejs-app-with-firebase-87c771489bea
+5. https://www.honeybadger.io/blog/node-elastic-beanstalk/?fbclid=IwAR2xibyOEO_AtqdG482kE0B2h09eXJNRpsEV2xYM8wr6lCePJtixqrEZqUk
 
 
 ## Postgres:
