@@ -16,7 +16,8 @@ A list of Heroku replacements, now that Heroku announced that they no longer pro
    7. As opposed to heroku, railway & fly.io - you'll need to manually set the DATABASE_URL environment variable for your postgres database.
    8. 
 
-
+**explore database backup**
+**explore database remote connection**
 
 # node js:
 1. Google cloud run 
