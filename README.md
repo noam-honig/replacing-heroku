@@ -4,10 +4,11 @@ A list of Heroku replacements, now that Heroku announced that they no longer pro
 # Node server + Postgres Database
 1. railway.app 👍 - easiest to install, great dev experience - only hosted on westcoast so slow to Israel (200ms latency) :(
    1. https://blog.railway.app/p/automated-postgresql-backups
-   2. 
+   2. Deploy via github repo
 3. fly.io 👍 - installs via cli, docs is pretty technical and scary - but it works - followed this article:
    * https://fly.io/docs/languages-and-frameworks/node/
    * 120ms latency
+   * deploy via cdn
 4. render - [Only one free db and will be deleted after 90 days](https://render.com/docs/free#free-postgresql-databases)
    1. https://www.freecodecamp.org/news/how-to-deploy-nodejs-application-with-render/
    2. have project on github
