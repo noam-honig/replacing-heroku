@@ -13,8 +13,9 @@ A list of Heroku replacements, now that Heroku announced that they no longer pro
    4. create new postgres database (as opposed to heroku - the database is separate from the website)
    5. You'll need to add "npm i" to your package.json file, because 'render' doesn't automatically run npm i when you deploy.
    6. I needed to specify the node version to use, because render was using an old version of node (<15). To specify the node version, set an environment variable called "NODE_VERSION" and set it to the version you want:(16.13.1) in my case
-   7. As opposed to heroku, railway & fly.io - you'll need to manually set the DATABASE_URL environment variable for your postgres database.
-   8. Positive:
+   7. 105 latency
+   8. As opposed to heroku, railway & fly.io - you'll need to manually set the DATABASE_URL environment variable for your postgres database.
+   9. Positive:
       1. better management consule
       2. sends an email when the web site crashes - really wanted that in heroku
       3. 
