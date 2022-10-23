@@ -56,3 +56,12 @@ A list of Heroku replacements, now that Heroku announced that they no longer pro
 
 ## Other:
 https://caprover.com/ - creates a docker and deploys it to gidital ocean or anything else
+
+## Things to check on any platform
+1. How to see cosole log
+2. How to deploy on commit
+3. SSL
+4. postgres
+5. Server side http events
+6. 
+
