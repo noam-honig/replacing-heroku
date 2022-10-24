@@ -27,7 +27,8 @@ A list of Heroku replacements, now that Heroku announced that they no longer pro
 **explore database remote connection**
 
 # node js:
-1. Google cloud run 
+1. AWS Elastic beanstalk - [aws setup notes created with Asaf](deploy-to-aws.md)
+2. Google cloud run 
 
 
 

@@ -1,17 +1,17 @@
-Had a great talk with Asaf, where together we've deployed both static files and a nodejs server to aws.
+Had a great talk with Asaf, where together we deployed both static files and a NODEJS server to AWS.
 
-I'm still a newby in this, so I got as far as working - I'm not sure about best practices :)
+I'm still a newbie in this, so I got as far as working - I'm not sure about best practices :)
 
 # Deploy static files to S3 and open them to the web:
 In AWS 
 1. Search for `s3` in the search bar on top and select `S3`
 2. Click `Create bucket` button
-   1. Give unique name (In my test it was `replace-heroku-static`) , and select region. 
+   1. Give a unique name (In my test it was `replace-heroku-static`), and select a region. 
    2. Under the topic `Block Public Access settings or this bucket` 
       1. uncheck all checkboxes
-      2. check the `I achnowledge that.....`
-      This will allow anyone to access the files in this s3 - which is what you want for a your front end files.
-   3. Scroll down and click `create bucket`
+      2. check the `I acknowledge that.....`
+      This will allow anyone to access the files in this s3 - which is what you want for your front-end files.
+   3. Scroll down and click `Create bucket`
 3. In the list - click on the newly created bucket
    1. goto `Properties` 
       1. Scroll down to `Static website hosting`
@@ -21,10 +21,10 @@ In AWS
          4. Save
    2. goto `Permissions`
       1. `Bucket policy` - click edit
-      2. Set the policy - you can click on policy examples where you can find policies - I've used the second one called:`Granting read-only permission to an anonymous user
+      2. Set the policy - you can click on policy examples where you can find policies - I've used the second one called: `Granting read-only permission to an anonymous user`
 `.
          
-         Copy the json from there and replace the `DOC-EXAMPLE-BUCKET` with your bucket name (In my test it was `replace-heroku-static`)
+         Copy the JSON from there and replace the `DOC-EXAMPLE-BUCKET` with your bucket name (In my test it was `replace-heroku-static`)
          ```json
          {
              "Version": "2012-10-17",
@@ -45,7 +45,7 @@ In AWS
          }
          ```
          * Make sure to replace `DOC-EXAMPLE-BUCKET` with your bucket name
-         * Make sure to delete all trailing spaces, otherwise you'll get an in valid json error (for some reason it started with a space I had to remove)
+         * Make sure to delete all trailing spaces, otherwise,  you'll get an invalid JSON error (for some reason it started with a space I had to remove)
          * Click save
    3. Goto `Objects` and upload your files (In react or angular this will be all the index.html, and javascript  and css files created when you build your project) In my case it was just a simple index.html (you can simply drag and drop them to the browser) and click `Upload`
    4. In the `Objects` list, click on `index.html` 
@@ -54,12 +54,12 @@ In AWS
 # Deploying node js server
 1. Search for `Elastic Beanstalk` in the search bar on top and select `Elastic Beanstalk`
 2. Prepare your app for deployment:
-   3. Add a file called `procfile` (no extention) in the root folder of your project and write in it `node:` and the node js starting point. in my case it looks like this:
+   3. Add a file called `procfile` (no extension) in the root folder of your project and write in it `node:` and the node js starting point. in my case it looks like this:
       ```
       node:dist/server/index.js
       ```
    4. Run npm install and also build your code.
-   5. If you have environment variables, store them in a .env file - you will not be able to set them on the server yourself like you did in heroku or railway.
+   5. If you have environment variables, store them in a .env file - you will not be able to set them on the server yourself as you did in Heroku or railway.
    6. create a zip file with all that - you'll use it later.
 4. Click `Create a new environment`
    3. Select `Web server environment` and click `Select`
@@ -75,9 +75,9 @@ In AWS
 * Viewing console log done by node js
   1. On the left, click `logs` 
      2. Request logs
-     3. download the file and in it there will be a section called: `/var/log/web.stdout.log`
+     3. download the file and in it, there will be a section called: `/var/log/web.stdout.log`
 
 ## To add to this document
 1. Configure SSL
-2. Connect to postgres database
+2. Connect to Postgres database
 3. Things I don't know yet....
