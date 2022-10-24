@@ -52,4 +52,32 @@ In AWS
    5. Copy the `Object URL` into your browser and you're ready to go.
    
 # Deploying node js server
-1. 
+1. Search for `Elastic Beanstalk` in the search bar on top and select `Elastic Beanstalk`
+2. Prepare your app for deployment:
+   3. Add a file called `procfile` (no extention) in the root folder of your project and write in it `node:` and the node js starting point. in my case it looks like this:
+      ```
+      node:dist/server/index.js
+      ```
+   4. Run npm install and also build your code.
+   5. If you have environment variables, store them in a .env file - you will not be able to set them on the server yourself like you did in heroku or railway.
+   6. create a zip file with all that - you'll use it later.
+4. Click `Create a new environment`
+   3. Select `Web server environment` and click `Select`
+   4. Set application name (in my case `replace-heroku-node`)
+   5. Select `Platform` `Node.js`
+   6. `Application code` select `Upload your code`
+   7. Upload the zip file you've created in item 2.
+   8. Click `Create environment`
+   9. wait for it to complete :)
+   10. Once it's done you'll have a url at the top with a link that should work :)
+
+## Notes
+* Viewing console log done by node js
+  1. On the left, click `logs` 
+     2. Request logs
+     3. download the file and in it there will be a section called: `/var/log/web.stdout.log`
+
+## To add to this document
+1. Configure SSL
+2. Connect to postgres database
+3. Things I don't know yet....
