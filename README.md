@@ -53,7 +53,7 @@ A list of Heroku replacements, now that Heroku announced that they no longer pro
 
 ## Postgres:
 1. ElephantSQL
-2. supabase.com
+2. supabase.com - see explanation at: https://deno.com/deploy/docs/tutorial-postgres#setup-postgres
 
 ## Other:
 https://caprover.com/ - creates a docker and deploys it to gidital ocean or anything else
